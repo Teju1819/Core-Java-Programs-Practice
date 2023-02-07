@@ -1,0 +1,32 @@
+
+class Calculator 
+{
+	Scanner s1=new Scanner();
+	public static void main(String[] args) 
+	{
+		  public void toAdd()
+		{
+			  int a=s1.nextInt();
+			  int b=s1.nextInt();
+			  int result= a+b;
+			  System.out.println("Addition is"+result);
+
+	}
+            	public void toSub()
+		{
+					
+		     int sub=a-b;
+			 System.out.println("Substraction is"+sub);
+		}
+		      public void toMult()
+		{
+			int mult = a*b;
+			System.out.println("Multiplication is"+mult);
+		}
+		      public void toDiv()
+		{
+			 float div =a/b;
+			 System.out.pritnln("Division is"+Div);
+		}
+	}
+}

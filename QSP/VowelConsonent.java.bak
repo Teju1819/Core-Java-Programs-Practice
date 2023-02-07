@@ -1,0 +1,19 @@
+class VowelConsonent 
+{
+	public static void main(String[] args) 
+	{
+		
+		char ch ='b';
+		//if(ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U'|| ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u')
+		if(ch=='A_Z' || ch=='a_z')
+		{
+			System.out.println("character");
+		}
+			else
+		{
+				System.out.println("not character");
+		}
+
+
+	}
+}

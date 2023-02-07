@@ -1,0 +1,12 @@
+class Concatination 
+{
+	public static void main(String[] args) 
+	{
+		
+       System.out.println("java"+10);
+	   System.out.println("java"+10.89);
+	   System.out.println("java"+'g');
+	   System.out.println("java"+false);
+	   System.out.println("java"+"session");
+	}
+}

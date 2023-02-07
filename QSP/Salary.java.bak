@@ -1,0 +1,48 @@
+import java.util.Scanner;
+class  Salary
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter first salary");
+		double fsal=sc.nextDouble();
+		System.out.println("Enter second salary");
+		double ssal=sc.nextDouble();
+		System.out.println("Enter third salary");
+		double tsal=sc.nextDouble();
+		double largest, smallest;
+        //double res=highestSalary();
+		//System.out.println("largest is:"+res);
+		largest = tsal> (fsal> ssal ? fsal: ssal) ? tsal : ((fsal> ssal) ? fsal : ssal);  
+			System.out.println("Largest value is:"+largest);
+			smallest=tsal<(fsal<ssal?fsal:ssal)?tsal:((fsal<ssal)?fsal:ssal);
+				System.out.println("smallest value is:"+smallest);
+
+				Double difference=largest-smallest;
+				System.out.println("Difference between salary:"+difference);
+
+		
+	}
+	/*	public static double highestSalary()
+		{
+		if(fsal>ssal && fsal>tsal)
+		{
+			largest=fsal;
+			
+		}
+		else if(ssal>fsal && ssal>tsal)
+		{
+			largest=ssal;
+		}
+		else
+		{
+			largest=tsal;
+		//	System.out.println("largest is:"+largest);
+		}
+	
+		return largest;
+		}*/
+	}
+
+
+

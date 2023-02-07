@@ -1,0 +1,12 @@
+class Widening 
+{
+	public static void main(String[] args) 
+	{
+
+		float a=45.98f;
+		int s=(int)a;
+
+		System.out.println(a);
+		System.out.println(s);
+	}
+}
